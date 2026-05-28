@@ -1,11 +1,10 @@
 'use strict';
-const express  = require('./node_modules/express');
-const cors     = require('./node_modules/cors');
-const multer   = require('./node_modules/multer');
-const initSqlJs = require('./node_modules/sql.js');
+const express  = require('express');
+const cors     = require('cors');
+const multer   = require('multer');
+const initSqlJs = require('sql.js');
 const fs       = require('fs');
 const path     = require('path');
-
 const PORT    = 3000;
 const DB_PATH = path.join(__dirname, 'ppd2026.db');
 
