@@ -5,7 +5,7 @@ const multer   = require('multer');
 const initSqlJs = require('sql.js');
 const fs       = require('fs');
 const path     = require('path');
-const PORT    = 3000;
+const PORT = process.env.PORT || 3000;
 const DB_PATH = path.join(__dirname, 'ppd2026.db');
 
 // ── Bootstrap DB ──────────────────────────────────────────
